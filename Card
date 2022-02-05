@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .card {
+        width: 100px;
+        padding: 25px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 20%;
+        flex-grow: initial;
+        background-color:rgb(0, 247, 255);
+        height: 390px;
+        cursor: pointer;
+        box-shadow: 0px 10px 2px 0px;
+        transition: all 0.3s;
+        border-radius: 17px;
+      }
+
+      .lower {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+     .upper{
+         text-align: center;
+     }
+
+      .program {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        justify-content: space-between;
+        margin: 10px;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class="program">
+      <div class="card">
+        <div class="upper">
+          <img
+            alt="Frontend Engineer"
+            src="https://www.vidhyaskillschool.com/assets/img/content/frontend.jpg"
+            />
+        </div>
+        <div class="lower">
+          <h4 class="text-primary">Frontend Engineer</h4>
+          16 Weeks Program
+          <p class="text-primary">As a Frontend Engineer with industry <br>exprience, you will create scalable <br>consumer facing applications.<p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="program">
+          <img
+            alt="Backend Engineer"
+            src="https://www.vidhyaskillschool.com/assets/img/content/backend.jpg"
+            />
+        </div>
+        <div class="lower">
+          <h4 class="text-primary">Backend Engineer</h4>
+          16 Weeks Program
+          <p class="text-primary">As an industry-ready Backend Engineer,<br> you'll create scalable enterprise-level<br> applications.<p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="program">
+          <img
+            alt="fullstack Engineer"
+            src="https://www.vidhyaskillschool.com/assets/img/content/fullstack.jpg"
+            />
+        </div>
+        <div class="lower">
+          <h4 class="text-primary">Fullstack Engineer</h4>
+            25 Weeks Program
+            <p>As an industry-ready Full Stack Engineer,<br> you'll create scalable end-to-end apps<br> using industry leading technologies.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="program">
+          <img
+            alt="Mobile Engineer"
+            src="https://www.vidhyaskillschool.com/assets/img/content/mobile.jpg"
+            />
+        </div>
+        <div class="lower">
+          <h3 class="text-primary">Mobile Engineer</h3>
+          16 Weeks Program
+          <p class="text-primary">As an industry-ready Mobile Engineer,<br> create scalable customer-facing apps<br> using industry leading technologies.<p>       
+        </div>
+      </div>
+  </body>
+</html>
