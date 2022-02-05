@@ -8,17 +8,15 @@
     <style>
       .card {
         width: 100px;
-        padding: 25px 15px;
+        padding: 20px 10px;
         display: flex;
         flex-direction: column;
         align-items: center;
         flex: 20%;
-        flex-grow: initial;
         background-color:rgb(0, 247, 255);
         height: 390px;
         cursor: pointer;
         box-shadow: 0px 10px 2px 0px;
-        transition: all 0.3s;
         border-radius: 17px;
       }
 
@@ -35,11 +33,18 @@
       .program {
         display: flex;
         flex-direction: row;
-        gap: 10px;
+        gap: 67px;
         flex-wrap: wrap;
-        align-content: flex-start;
-        justify-content: space-between;
         margin: 10px;
+      }
+
+      hr{
+          margin: 4px;
+          width: 250px;
+
+      }
+      p{
+          margin: 10px;
       }
     </style>
 
@@ -56,6 +61,7 @@
         <div class="lower">
           <h4 class="text-primary">Frontend Engineer</h4>
           16 Weeks Program
+          <hr>
           <p class="text-primary">As a Frontend Engineer with industry <br>exprience, you will create scalable <br>consumer facing applications.<p>
         </div>
       </div>
@@ -70,6 +76,7 @@
         <div class="lower">
           <h4 class="text-primary">Backend Engineer</h4>
           16 Weeks Program
+          <hr>
           <p class="text-primary">As an industry-ready Backend Engineer,<br> you'll create scalable enterprise-level<br> applications.<p>
         </div>
       </div>
@@ -84,6 +91,7 @@
         <div class="lower">
           <h4 class="text-primary">Fullstack Engineer</h4>
             25 Weeks Program
+            <hr>
             <p>As an industry-ready Full Stack Engineer,<br> you'll create scalable end-to-end apps<br> using industry leading technologies.</p>
         </div>
       </div>
@@ -98,6 +106,7 @@
         <div class="lower">
           <h3 class="text-primary">Mobile Engineer</h3>
           16 Weeks Program
+          <hr>
           <p class="text-primary">As an industry-ready Mobile Engineer,<br> create scalable customer-facing apps<br> using industry leading technologies.<p>       
         </div>
       </div>
